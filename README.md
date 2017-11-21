@@ -1,7 +1,6 @@
 # Assignment 7: Controlling the Music Editor 
 
-This assignment continues off of the assignment in Homework 6 with the addition of 1 more view for 
-the rendered songs in a partner setting. Now the project supports an audio "midi" view of the 
+The project supports an audio "midi" view of the 
 song, a gui "visual" view, a "console" view, and a "composite" view combining the midi and gui view.
 Altogether this step shows a rounding out of the MVC paradigm, completing the controller portion of 
 the project. In this README, every package is going to state the files that where changed, and in 
