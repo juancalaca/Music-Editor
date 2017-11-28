@@ -395,3 +395,18 @@ last week was used to confirm that display started playing the midi. For the gui
 the key and mouse mappings were tested, and then the difference between these two mappings 
 (that you can only add a note when the song is paused) was tested as well. The gui and composite 
 views were not display so as to not cause gui's to pop up during testing.
+
+# Submission
+For this submission we include our JAR file in the resources directory, as well as the screenshot of
+the rendering of “mystery-2.txt” at beat 42. Our tests for MIDI uses the “mary-little-lamb.txt” 
+file to test, creating a file named “midi-transcript.txt” at its execution to assure that the 
+object works as expected.  The file "mary-little-lamb.txt" is in the top directory with the purpose
+of our tests using that file to build a model.
+
+# MusicEditor
+Execute the following command within the resources directory in a command-prompt/terminal.
+```
+java -jar CS3500-HW07.jar MUSIC_FILE.txt VIEW_SPECIFIER
+```
+Where MUSIC_FILE is the file you would like to play, and VIEW_SPECIFIER is the type of view you
+would like to see. Options are: "console", "midi", "visual", or "composite".
