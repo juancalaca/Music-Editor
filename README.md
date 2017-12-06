@@ -1,4 +1,4 @@
-# Assignment 7: Controlling the Music Editor 
+# Controlling the Music Editor 
 
 The project supports an audio "midi" view of the 
 song, a gui "visual" view, a "console" view, and a "composite" view combining the midi and gui view.
