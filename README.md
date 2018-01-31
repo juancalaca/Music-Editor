@@ -1,3 +1,11 @@
+# MusicEditor
+Execute the following command within the resources directory in a command-prompt/terminal.
+```
+java -jar CS3500-HW07.jar MUSIC_FILE.txt VIEW_SPECIFIER
+```
+Where MUSIC_FILE is the file you would like to play, and VIEW_SPECIFIER is the type of view you
+would like to see. Options are: "console", "midi", "visual", or "composite".
+
 # Controlling the Music Editor 
 
 The project supports an audio "midi" view of the 
@@ -402,11 +410,3 @@ the rendering of “mystery-2.txt” at beat 42. Our tests for MIDI uses the “
 file to test, creating a file named “midi-transcript.txt” at its execution to assure that the 
 object works as expected.  The file "mary-little-lamb.txt" is in the top directory with the purpose
 of our tests using that file to build a model.
-
-# MusicEditor
-Execute the following command within the resources directory in a command-prompt/terminal.
-```
-java -jar CS3500-HW07.jar MUSIC_FILE.txt VIEW_SPECIFIER
-```
-Where MUSIC_FILE is the file you would like to play, and VIEW_SPECIFIER is the type of view you
-would like to see. Options are: "console", "midi", "visual", or "composite".
