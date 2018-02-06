@@ -9,7 +9,7 @@ would like to see. Options are: "console", "midi", "visual", or "composite".
 MUSIC_FILE can be one of:
 - ``lnl.txt``
 - ``mary-little-lamb.txt``
-- ``mystery-2.txt"
+- ``mystery-2.tx``
 
 
 # Controlling the Music Editor 
