@@ -6,6 +6,12 @@ java -jar CS3500-HW07.jar MUSIC_FILE.txt VIEW_SPECIFIER
 Where MUSIC_FILE is the file you would like to play, and VIEW_SPECIFIER is the type of view you
 would like to see. Options are: "console", "midi", "visual", or "composite".
 
+MUSIC_FILE can be one of:
+- ``lnl.txt``
+- ``mary-little-lamb.txt``
+- ``mystery-2.txt"
+
+
 # Controlling the Music Editor 
 
 The project supports an audio "midi" view of the 
