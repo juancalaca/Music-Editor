@@ -3,8 +3,8 @@ Execute the following command within the resources directory in a command-prompt
 ```
 java -jar CS3500-HW07.jar MUSIC_FILE.txt VIEW_SPECIFIER
 ```
-Where MUSIC_FILE is the file you would like to play, and VIEW_SPECIFIER is the type of view you
-would like to see. Options are: "console", "midi", "visual", or "composite".
+Where ``MUSIC_FILE`` is the file you would like to play, and ``VIEW_SPECIFIER`` is the type of view you
+would like to see. Options are: ``"console"``, ``"midi"``, ``"visual"``, or ``"composite"``. Where ``"midi"`` plays the song, ``"visual"`` displays the song, and ``"composite"`` displays and plays the song. The ``"console"`` view outputs a console version of the ``MUSIC_FILE``.
 
 MUSIC_FILE can be one of:
 - ``lnl.txt``
